@@ -4,63 +4,45 @@ using System.Dynamic;
 
 namespace AddressBook
 {
-
-
-    class AddressBook
+    public class contact
     {
+        String FirstName;
+        String LastName;
+        String PhoneNumber;
+        String Address;
+        String zipCode;
+        String Email;
 
+        public contact(String FirstName, String LastName, String PhoneNumber, String Address, String zipCode, String Email)
+        {
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.PhoneNumber = PhoneNumber;
+            this.Address = Address;
+            this.zipCode = zipCode;
+            this.Email = Email;
+        }
+
+        public class Person
+        {
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+            public string PhoneNumber { get; set; }
+            public string Address { get; set; }
+            public string zipCode { get; set; }
+            public string Email { get; set; }
+        }
         static void Main(string[] args)
         {
-            ArrayList address = new ArrayList { };
-            Boolean Menu = true;
-            
-            do
-            {
-
-                Console.WriteLine("Enter Your First Name");
-                string name = "FirstName";
-                name = Console.ReadLine();
-                string valuestring = name;
-
-                Console.WriteLine("Enter Your last Name");
-                string name1 = "LastName";
-                name1 = Console.ReadLine();
-                string valuestring1 = name1;
-
-                Console.WriteLine("Enter YourAddress City");
-                string name2 = "Address City";
-                name2 = Console.ReadLine();
-                string valuestring2 = name2;
-
-                Console.WriteLine("Enter Your Phone Number");
-                string name3 = "Phone no";
-                name3 = Console.ReadLine();
-                string valuestring3 = name3;
-
-                Console.WriteLine("Enter Your postal zip");
-                string name4 = "PostalZip";
-                name4 = Console.ReadLine();
-                string valuestring4 = name4;
-
-                Console.WriteLine("Enter Your Email");
-                string name5 = "Email";
-                name5 = Console.ReadLine();
-                string valuestring5 = name5;
+            contact person = new contact("divya", "singh", "1234", "seoni", "462003", "abcd@gmail.com");
+            Console.WriteLine("Enter Your First Name" + person.FirstName);
+            Console.WriteLine("Enter Your Last Name" + person.LastName);
+            Console.WriteLine("Enter PhoneNumber" + person.PhoneNumber);
+            Console.WriteLine("Enter Your Zipcode" + person.zipCode);
+            Console.WriteLine("Enter Your Email" + person.Email);
 
 
-                Console.WriteLine("First Name You Entere:" + valuestring);
-                Console.WriteLine("Last Number You Entere:" + valuestring1);
-                Console.WriteLine("Address City You Entere:" + valuestring2);
-                Console.WriteLine("Phone number You Entere:" + valuestring3);
-                Console.WriteLine("Postal code You Entere:" + valuestring4);
-                Console.WriteLine("email You Entere:" + valuestring5);
-
-
-
-
-            }
-
-            while (Menu == true);
         }
     }
-}
+    
+    }
