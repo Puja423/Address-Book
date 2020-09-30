@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Dynamic;
 
 namespace AddressBook
 {
@@ -43,6 +41,50 @@ namespace AddressBook
 
 
         }
+        public void add()
+        {
+            Console.WriteLine("Would you like to  add a person in your Address Book? (add)");
+            string response = Console.ReadLine();
+            if (response.ToLower() == "add")
+            {
+                this.addToAddressBook();
+            }
+            else
+            {
+                Console.WriteLine("Your must enter 'add' to continue");
+                this.add();
+            }
+        }
+        public void addToAddressBook()
+        {
+            Console.WriteLine("Enter the first name");
+            string FirstName = Console.ReadLine();
+
+            Console.WriteLine("Enter the last name");
+            string LastName = Console.ReadLine();
+
+            Console.WriteLine("Enter the phone number");
+            string PhoneNumber = Console.ReadLine();
+
+            Console.WriteLine("Enter the ZipCode");
+            string zipCode = Console.ReadLine();
+
+            Console.WriteLine("Enter the address");
+            string Address = Console.ReadLine();
+
+            Console.WriteLine("Enter the email address");
+            string Email = Console.ReadLine();
+
+            contact person = new contact(FirstName, LastName, PhoneNumber, zipCode, Address, Email);
+
+            Console.WriteLine("");
+            Console.WriteLine("We have added - " + person.FirstName + " " + person.LastName + " to the database");
+            Console.WriteLine("");
+
+
+            this.add();
+
+        }
+
     }
-    
-    }
+}
