@@ -1,0 +1,13 @@
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\AddressBook.exe
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\AddressBook.deps.json
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\AddressBook.runtimeconfig.json
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\AddressBook.runtimeconfig.dev.json
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\AddressBook.dll
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\bin\Debug\netcoreapp3.1\AddressBook.pdb
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.csprojAssemblyReference.cache
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.AssemblyInfoInputs.cache
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.AssemblyInfo.cs
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.csproj.CoreCompileInputs.cache
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.dll
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.pdb
+G:\Learning Git\Address Book\Address-Book\AddressBook\AddressBook\obj\Debug\netcoreapp3.1\AddressBook.genruntimeconfig.cache
