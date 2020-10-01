@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{2714E403-0697-49C4-A98D-6AA38BC1CC70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "address", "address\address.csproj", "{C4FF7A90-7F2B-4787-A56F-AEFD4E53ED90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdressBook", "AdressBook\AdressBook.csproj", "{8C2607EE-24FB-4F97-A8AE-11BFC8EECE3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2714E403-0697-49C4-A98D-6AA38BC1CC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2714E403-0697-49C4-A98D-6AA38BC1CC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2714E403-0697-49C4-A98D-6AA38BC1CC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FF7A90-7F2B-4787-A56F-AEFD4E53ED90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FF7A90-7F2B-4787-A56F-AEFD4E53ED90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FF7A90-7F2B-4787-A56F-AEFD4E53ED90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FF7A90-7F2B-4787-A56F-AEFD4E53ED90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2607EE-24FB-4F97-A8AE-11BFC8EECE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2607EE-24FB-4F97-A8AE-11BFC8EECE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2607EE-24FB-4F97-A8AE-11BFC8EECE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2607EE-24FB-4F97-A8AE-11BFC8EECE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
